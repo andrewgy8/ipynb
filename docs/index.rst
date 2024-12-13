@@ -86,6 +86,7 @@ If you want to import notebooks from other notebooks relatively, you can easily
 do that with the following:
 
 .. code-block:: python
+
     import ipynb.fs
     from .full.notebook1 import foo
     from .defs.notebook2 import bar
